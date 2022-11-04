@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+#main_text {
+  position: relative;
+  width: 1533px;
+  height: 111px;
+  background-color: #FAFAFA;
+  padding: 15px 163px;
+}
+#main_text .credit-card {
+  position: relative;
+}
+#main_text .credit-card .card {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: orangered;
+}
+#main_text .credit-card .card i {
+  position: absolute;
+  top: 18px;
+  left: 15px;
+  color: white;
+}
+#main_text .credit-card .card_text {
+  margin-left: 70px;
+  margin-top: -61px;
+}
+#main_text .credit-card .card_text h4 {
+  padding: 10px;
+}
+#main_text .credit-card .card_text p {
+  font-size: 13px;
+  margin-left: 8px;
+  font-weight: 200;
+  opacity: 1;
+}
+#main_text .credit-card .card_1common {
+  position: absolute;
+  left: 360px;
+  top: 3px;
+}
+#main_text .credit-card .card_2common {
+  position: absolute;
+  right: 276px;
+  top: 6px;
+}
+#main_text .credit-card .card_3common {
+  position: absolute;
+  right: -67px;
+  top: 6px;
+}
+
+#footer_second {
+  width: 1440px;
+  height: 272px;
+  padding: 30px 140px;
+}
+#footer_second table {
+  width: 90%;
+}
+#footer_second table tr th {
+  text-align: left;
+  padding-bottom: 10px;
+}
+#footer_second table tr td {
+  padding-top: 10px;
+}
+#footer_second table tr td a {
+  text-decoration: none;
+  opacity: 1;
+  font-weight: 400;
+  color: #000;
+}
+
+#footer_end {
+  width: 1533px;
+  height: 142px;
+  background-color: #FAFAFA;
+}
+#footer_end .footer_main {
+  padding: 30px 140px;
+}
+#footer_end .footer_main p {
+  font-size: 15px;
+  opacity: 0.7;
+}
+#footer_end .footer_main .contact {
+  width: 160px;
+  height: 52px;
+  border: 1px #23A6F0;
+  background-color: #23A6F0;
+  margin-top: -46px;
+  padding-top: 14px;
+  float: right;
+}
+#footer_end .footer_main .contact a {
+  text-decoration: none;
+  color: white;
+  margin-left: 31px;
+}/*# sourceMappingURL=footer_3.css.map */

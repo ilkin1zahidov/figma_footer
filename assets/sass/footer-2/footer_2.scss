@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+    #footer_one{
+        width: 1533px;
+        height: 142px;
+        background-color: #FAFAFA;
+        
+        .footer_main{
+            padding: 30px 140px;
+
+         p{
+            font-size: 15px;
+            opacity: 0.7;
+         }
+            .contact{
+                width: 160px;
+                height: 52px;
+                border: 1px #23A6F0;
+                background-color: #23A6F0;
+                margin-top: -46px;
+                padding-top: 14px;
+                float: right;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    margin-left: 31px;
+                    
+                }
+            }
+
+        }
+        
+      
+
+    }
+
+    #footer_second{
+        width: 1440px;
+        height: 272px;
+        padding: 30px 140px;
+        table{
+      
+            width: 90%;
+    
+            tr{
+         
+                th{
+                    text-align: left;
+                    
+                    padding-bottom: 10px;
+                }
+                td{
+                    padding-top: 10px;
+                    a{
+                 
+                        text-decoration: none;
+                        opacity: 1;
+                        font-weight: 400;
+                        color: #000;
+                      
+                    }
+                }
+            
+            }
+         
+        }
+    }
+
+    #footer_third{
+        width: 1533px;
+        height: 74px;
+        background-color: #FAFAFA;
+        
+        .footer_end{
+            p{
+                margin-left: 149px;
+                padding-top: 24px;
+            }
+        }
+
+        .icons_end{
+            float: right;
+            margin-right: 112px;
+            margin-top: -22px;
+            i{
+                padding: 3px;
+                font-size: 23px;
+
+                color: #23A6F0;
+            }
+
+        }
+    }
+}

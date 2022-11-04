@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+
+    #footer_first{
+        width: 1533px;
+        height: 74px;
+      
+        
+        .footer_text{
+            h3{
+                margin-left: 149px;
+                padding-top: 24px;
+            }
+        }
+
+        .icons_footer{
+            float: right;
+            margin-right: 112px;
+            margin-top: -22px;
+            i{
+                padding: 3px;
+                font-size: 23px;
+
+                color: #23A6F0;
+            }
+
+        }
+    }
+    hr{
+        width: 1316px;
+      height: 0px;
+      border: 1px solid #E6E6E6;
+      margin-left: 147px;
+      margin-top: 49px;
+    }
+
+    #footer_second{
+        width: 1440px;
+     height: 272px;
+     padding: 58px 140px;
+     margin-left: 95px;
+    
+        table{
+            position: relative;
+      
+            width: 90%;
+    
+            tr{
+         
+                th{
+                    text-align: left;
+                    
+                    padding-bottom: 10px;
+                }
+                td{
+                    padding-top: 10px;
+                    a{
+                 
+                        text-decoration: none;
+                        opacity: 1;
+                        font-weight: 400;
+                        color: #000;
+                      
+                    }
+                }
+            
+            }
+         input{
+            width: 201px;
+            height: 58px;
+         }
+         .email{
+        
+          position: absolute;
+   
+          width: 119px;
+          height: 58px;
+          background-color: #23A6F0;
+          padding-top: 18px;
+          padding-left: 18px;
+          color: white;
+          text-decoration: none;
+            a{
+             
+               
+                
+            }
+         }
+        }
+    }
+
+    #footer--end{
+        .footer_end{
+            background-color: #FAFAFA;
+            height: 74px;
+            p{
+    
+                margin-left: 235px;
+                margin-top: 58px;
+                padding-top: 30px;
+                font-size: 16px;
+                font-weight: 220;
+                
+            }
+        }
+    }
+    
+}
+
+

@@ -21,6 +21,7 @@ footer{
         margin-left: 200px;
         margin-top: 80px;
         width: 70%;
+       
  
         tr{
          
@@ -40,6 +41,21 @@ footer{
                 }
             }
         
+        }
+     
+      }
+      position: relative;
+      .icons{
+        position: absolute;
+        top: 206px;
+        left: 196px;
+        
+       
+        i{
+            padding: 3px;
+            font-size: 23px;
+
+            color: #23A6F0;
         }
     }
 
